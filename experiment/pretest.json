@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1)	An 8-pole, 3-phase, 50 Hz induction motor is operating at a speed of 720 rpm. The frequency of the rotor current of the motor in Hz is __________",
+      "question": "1) An 8-pole, 3-phase, 50 Hz induction motor is operating at a speed of 720 rpm. The frequency of the rotor current of the motor in Hz is __________",
       "answers": {
         "a": "2",
         "b": "4",
