@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": " 1.The starting torque of a squirrel-cage induction motor is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Full-load torque",
+        "b": "Slightly more than full-load torque",
+        "c": "Low",
+        "d": "Negligible"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2.A three-phase, 50 Hz induction motor has a full load speed of 1440 rpm. The full load slip will be?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "3",
+        "b": "5",
+        "c": "4",
+        "d": "2"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
