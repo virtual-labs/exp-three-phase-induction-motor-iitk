@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) An 8-pole, 3-phase, 50 Hz induction motor is operating at a speed of 720 rpm. The frequency of the rotor current of the motor in Hz is __________",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "3",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) The frame of an induction motor is made of ______",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Silicon steel",
+        "c": "Cast iron",
+        "d": "Stainless steel"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer":"c",
+      "difficulty": "beginner"
+    }
+  ]
+}
