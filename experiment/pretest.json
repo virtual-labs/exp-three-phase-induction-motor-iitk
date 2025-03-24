@@ -10,10 +10,10 @@
         "d": "1"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "Stainless steel"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer":"c",
       "difficulty": "beginner"
