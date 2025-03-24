@@ -39,7 +39,7 @@ The total three output terminal are connected to 3 winding of three phase induct
   Number of pole of motor = 4<br>
 For measurement of voltage we simply connect two terminal input starter to voltmeter terminal .<br>
 For measurement of current draw in motor we simply connected one terminal of ammeter to one input of starter terminal and one terminal of ammeter to one terminal of motor<br> 
-By doing all this connection we simply power on and obtain a clockwise moving of a 3-phase induction motor .                                                                       To calculating the speed of 3-phase induction motor we mainly use “TECHOMETER”<br>
+By doing all this connection we simply power on and obtain a clockwise moving of a 3-phase induction motor .                                                                       To calculating the speed of 3-phase induction motor we mainly use “TACHOMETER”<br>
 
 When 3-phase supply is given in negative sequence (RBY) to the three phase winding of stator of induction motor it produces rotating magnetic  field in anticlockwise direction .                                      therefore for reversing the direction of three phase induction motor we simply interchange any two terminal of 3-phase supply.<br>
   For obtaining the reversing running condition of a 3-phase induction motor we do all the connection in similar way but one thing we should to do this to just interchange of any two terminal of 3-phase supply of the system .<br>
