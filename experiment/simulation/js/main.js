@@ -66,7 +66,14 @@ function phasechangefunc() {
 		}
 	}
 }
+// We have restricted the negtive voltage
+
 function autoswitchfunc() {
+	    if (voltage1 <= 0) {
+        alert("Please enter a valid voltage greater than 0 before turning on the switch.");
+        return;
+    }
+
 	if (c3 == false) {
 		Current=(voltage1/200).toFixed(2);
 		document.getElementById("autoswitch").style.transform = "rotate(90deg)";
@@ -127,15 +134,20 @@ function rotateAnimation1(el, speed) {
 		}
 	}
 }
+
+// Here is the updated function 
 function displaytach() {
-	Speed=((1-(138.33/voltage1))*1500).toFixed(2);
-	if (switchcount == 2) {
-		tachometer_1_0 = document.getElementById('tach').innerHTML =Speed+" rpm";
-	}
-	else {
-		tachometer_1_0 = document.getElementById('tach').innerHTML = '0 RPM';
-	}
+    if (switchcount == 2 && voltage1 > 0) {
+        Speed = ((1 - (138.33 / voltage1)) * 1500).toFixed(2);
+        if (isNaN(Speed) || !isFinite(Speed) || Speed < 0) {
+            Speed = 0;
+        }
+        document.getElementById('tach').innerHTML = Speed + " RPM";
+    } else {
+        document.getElementById('tach').innerHTML = '0 RPM';
+    }
 }
+
 function popupswitch1() {
 	var popup = document.getElementById("myPopup");
 	popup.classList.toggle("show");
@@ -150,16 +162,25 @@ function openNav() {
 	document.getElementById("mySidepanel").style.width = "0";
   }
 
-function getVoltage(id) {
-    if (id === 'voltage1') {
-        voltage1 = document.getElementById(id).value;
-        document.getElementById("voltage-1-display").innerText = voltage1;
-    }
 
-    else {
-        voltage2 = document.getElementById(id).value;
-        document.getElementById("voltage-2-display").innerText = voltage2;
+// Here is the updated function 
+
+function getVoltage(id) {
+    let val = parseFloat(document.getElementById(id).value);
+    if (isNaN(val) || val <= 0) {
+        alert("Voltage must be a number greater than 0");
+        voltage1 = 0;
+        document.getElementById("voltage-1-display").innerText = "0";
+        document.getElementById("voltmeter").innerHTML = "0 V";
+        document.getElementById("amp").innerHTML = "0 A";
+        document.getElementById("tach").innerHTML = "0 RPM";
+        return;
     }
+    voltage1 = val;
+    document.getElementById("voltage-1-display").innerText = voltage1;
+
+	
+}
 
     // console.log(voltage1, voltage2);
 
