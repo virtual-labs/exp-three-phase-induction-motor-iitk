@@ -10,10 +10,10 @@
         "d": "1"
       },
       "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
+           "a": "The rotor frequency is calculated as 2 Hz using slip and synchronous speed relation.",
+           "b": "Incorrect. Rotor frequency is not 4 Hz. The correct value is 2 Hz.",
+           "c": "Incorrect. The correct rotor frequency is 2 Hz, not 3 Hz.",
+           "d": "Incorrect. The rotor frequency is 2 Hz, not 1 Hz."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,13 +27,49 @@
         "d": "Stainless steel"
       },
       "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
+        "a": "Aluminium is light and corrosion-resistant but not commonly used for induction motor frames due to strength limitations.",
+        "b": "Silicon steel is used for motor laminations, not the frame, as it enhances magnetic properties but lacks structural strength.",
+        "c": "Cast iron is commonly used for motor frames due to its strength, durability, and ability to dissipate heat effectively.",
+        "d": "Stainless steel is corrosion-resistant but is typically too expensive and heavy for use in motor frames."
+      },
+      "correctAnswer":"c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3) Slip ring of an induction motor is usually made up of",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Copper",
+        "c": "Phosphorus Bronze",
+        "d": "Carbon"
+      },
+      "explanations": {
+        "a": "Aluminium is light but lacks the necessary wear resistance and strength for slip rings.",
+        "b": "Copper is a good conductor but not as durable as phosphorus bronze for slip rings.",
+        "c": "Phosphorus bronze is corrosion-resistant, durable, and offers wear resistance, making it ideal for slip rings.",
+        "d": "Carbon is used in motor brushes, not typically for constructing slip rings."
+      },
+      "correctAnswer":"c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4)A double squirrel-cage induction motor has",
+      "answers": {
+        "a": "Two series winding in stator",
+        "b": "Two parallel windings in stator",
+        "c": "Two parallel winding in Rotor",
+        "d": "Two rotors moving in opposite direction"
+      },
+      "explanations": {
+        "a": "A double squirrel-cage motor does not have two series windings in the stator.",
+        "b": "The stator does not have two parallel windings in a double squirrel-cage induction motor.",
+        "c": "The rotor has two cages: one outer with low reactance and one inner with high reactance.",
+        "d": "A double squirrel-cage motor uses a single rotor, not two rotors moving in opposite directions."
+ 
       },
       "correctAnswer":"c",
       "difficulty": "beginner"
     }
+    
   ]
 }
