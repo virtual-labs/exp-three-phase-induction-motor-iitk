@@ -185,4 +185,3 @@ function getVoltage(id) {
     // console.log(voltage1, voltage2);
 
     // console.log(document.getElementById("voltage-1-display-svg").innerText)
-}
