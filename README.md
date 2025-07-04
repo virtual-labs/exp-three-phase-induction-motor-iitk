@@ -21,4 +21,6 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Krishna Maddheshiya  | Student | Electrical Engineering  | Rajkiya Engineering College | krishana70680@gmail.com
 2 | Manas verma  | Student | Information Technology | Rajkiya Engineering College | manasverma012345@gmail.com
+3 | Sameer Vaidh | Student | Information Technology | Rajkiya Engineering College | 2307340130048@recbanda.ac.in
+4 | Shubham Upadhyay | Student | Information Technology | Rajkiya Engineering College | 2307340130063@recbanda.ac.in
  
